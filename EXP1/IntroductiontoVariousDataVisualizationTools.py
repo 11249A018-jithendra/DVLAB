@@ -31,5 +31,14 @@ Seaborn: 0.x.x
 Plotly: 5.x.x
 Pandas: 2.x.x
 
+//Libraries Used and Their Uses:
+Table : Commonly Used Python Visualization Libraries
+Library                 Use
+Matplotlib              Creates line charts, bar charts, scatter plots and other graphs.
+Seaborn                 Creates attractive statistical and analytical visualizations.
+Plotly                  Creates interactive charts and dashboards.
+Pandas                  Loads, cleans, transforms and analyzes tabular data.
+
+
 //Result:
 Thus, the versions of the commonly used Python data visualization libraries were displayed successfully.
