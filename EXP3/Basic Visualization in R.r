@@ -1,5 +1,5 @@
-//Experiment No. 3
-Basic Visualization in R
+##Experiment No. 3
+##Basic Visualization in R
 
 //Aim:
 To create a basic line graph using R programming.
@@ -32,8 +32,7 @@ plot(x, y,
 2 -  Bar Chart
 marks <- c(75,85,60,90,80)
 barplot(marks,
-        names.arg=c("Tamil","English",
-                    "Maths","Science","Computer"),
+        names.arg=c("Tamil","English","Maths","Science","Computer"),
         col="green",
         main="Subject Marks",
         xlab="Subjects",
@@ -46,6 +45,28 @@ pie(values,
     labels=labels,
     col=rainbow(5),
     main="Subject Distribution")
+
+4. Scatter Plot
+x <- c(2, 4, 6, 8, 10)
+y <- c(5, 9, 7, 12, 15)
+
+plot(x, y,
+     col = "red",
+     pch = 19,
+     main = "Scatter Plot",
+     xlab = "X Values",
+     ylab = "Y Values")
+
+5. Histogram
+
+marks <- c(45, 55, 60, 65, 70, 75, 80, 85, 90, 95)
+
+hist(marks,
+     col = "orange",
+     main = "Distribution of Marks",
+     xlab = "Marks",
+     ylab = "Frequency")
+
 
 Libraries        Functions Used
 - plot()         Creates line graphs and scatter plots.
