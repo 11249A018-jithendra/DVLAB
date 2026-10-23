@@ -47,5 +47,13 @@ pie(values,
     col=rainbow(5),
     main="Subject Distribution")
 
+Libraries        Functions Used
+- plot()         Creates line graphs and scatter plots.
+- barplot()      Creates bar charts.
+- pie()          Creates pie charts.
+- hist()         Creates histograms.
+- Base R graphicsProvides built-in visualization functions without requiring external packages.
+
+
 //Result:
 Thus, the line graph, bar chart, pie chart, scatter plot, and histogram were created successfully using R programming.
